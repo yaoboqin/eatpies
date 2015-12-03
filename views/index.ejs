@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>天喔</title>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script>
+	<!-- Path to Framework7 iOS CSS theme styles-->
+    <link rel="stylesheet" href="bower_components/Framework7/dist/css/framework7.ios.min.css">
+    <!-- Path to Framework7 iOS related color styles -->
+    <link rel="stylesheet" href="bower_components/Framework7/dist/css/framework7.ios.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <div class="page" id="start">
+            <a href="#" data-popup=".popup-main" class="open-popup btn btn-main"></a>
+            <a href="#" data-popup=".popup-rule" class="open-popup btn btn-rule"></a>
+        </div>
+        <!-- rule Popup -->
+          <div class="popup popup-rule" id="rule">
+            <div class="content-block">
+              <a href="#" data-popup=".popup-main" class="open-popup btn btn-main"></a>
+            </div>
+          </div>
+        <!-- main Popup -->
+          <div class="popup popup-main" id="main">
+            <div class="content-block">
+              
+            </div>
+          </div>
+      </div>
+    </div>
+    <script type='text/javascript' src='http://g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="bower_components/Framework7/dist/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
